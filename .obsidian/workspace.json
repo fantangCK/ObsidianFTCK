@@ -4,22 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "7824ada636fa0daf",
+        "id": "72f39b1b137edad4",
         "type": "tabs",
-        "dimension": 58.79765395894429,
+        "dimension": 58.06451612903226,
         "children": [
           {
-            "id": "5a7d79b4f11a6348",
+            "id": "113990335e8a9145",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -28,7 +25,7 @@
       {
         "id": "5ed067727080e9ec",
         "type": "tabs",
-        "dimension": 41.20234604105572,
+        "dimension": 41.935483870967744,
         "children": [
           {
             "id": "e859b292299b70c9",
@@ -104,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.canvas",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.canvas",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas"
+                "file": "Welcome.md"
               }
             }
           },
@@ -175,21 +172,20 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "zk-prefixer:创建时间戳笔记": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
       "pkmer:Open Pkmer Market": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "audio-recorder:开始/结束录音": false,
       "random-note:开始漫游笔记": false,
-      "workspaces:管理工作区布局": false,
-      "publish:发布更改": false
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "5a7d79b4f11a6348",
+  "active": "113990335e8a9145",
   "lastOpenFiles": [
-    "未命名.canvas",
     "README.md",
+    "create a link.md",
     "Welcome.md",
+    "202406020028.md",
+    "2024-06-02.md",
+    "未命名.canvas",
     "新建 文本文档.txt"
   ]
 }
