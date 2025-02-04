@@ -4,17 +4,32 @@ tags:
 dlink:
 ---
 # 一、引入
-## 1. C++运行逻辑
+## 1. C++运行逻辑-编译原理
 
 ```ad-note
 title: 申明
 告诉编译器 函数存在
+
+<font color="#2DC26B">只需要包含函数声明即可</font>
+```
+```cpp title:例子
+void Log(const char* message);
 ```
 
 ```ad-note
 title: 定义
 告诉编译器 函数到底是什么
+
+<font color="#2DC26B">需要包含函数整体</font>
 ```
+```cpp title:例子
+void Log(const char* message)
+{
+    std::cout << message << std::endl;
+}
+```
+
+
 
 ```cpp title:'预处理中 include作用'
 #include <iostream> 
