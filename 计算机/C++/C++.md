@@ -1,12 +1,12 @@
 ---
 tags:
   - 计算机
-dlink:
 ---
 # 一、引入
 ## 1. C++运行逻辑-编译原理
 
 ###  概念
+
 ```ad-note
 title: 申明
 告诉编译器 函数存在
@@ -58,6 +58,11 @@ title: 链接Link
 
 ```
 
+### 报错分析
+
+Visual Studio报错中
+- 以 Cxxxx 的报错，即发生在 Compile 编译阶段
+- 以 LNKxxxx 的报错，即发生在 Linking 链接阶段
 # 二、STL 库
 
 # 三、案例
