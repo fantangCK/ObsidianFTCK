@@ -8,11 +8,10 @@ dlink:
 
 申明：告诉编译器 函数存在
 定义：告诉编译器函数到底是什么
-```cpp title:include用法
-#include <iostream> //只是将所有内容复制到引入的地方
-
+```cpp title:I
+#include <iostream> //只是
 ```
-
+只是将所有内容复制到引入的地方
  
 # 二、STL 库
 
