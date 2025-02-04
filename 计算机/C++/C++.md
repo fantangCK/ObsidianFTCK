@@ -6,6 +6,7 @@ dlink:
 # 一、引入
 ## 1. C++运行逻辑-编译原理
 
+###  概念：
 ```ad-note
 title: 申明
 告诉编译器 函数存在
@@ -29,12 +30,14 @@ void Log(const char* message)
 }
 ```
 
-
+###  预处理阶段：
 
 ```cpp title:'预处理中 include作用'
 #include <iostream> 
 //只是将所有内容复制到引入的地方
 ```
+###  编译阶段：
+###  链接阶段：
 
 # 二、STL 库
 
