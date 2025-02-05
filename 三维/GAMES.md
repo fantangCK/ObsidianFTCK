@@ -4,10 +4,23 @@ tags:
   - 三维
 ---
 # GAMES 入门课程
-## [GAMES001-图形学中的数学](GAMES/GAMES00x/GAMES001.md)
-## [GAMES002-图形研发基础工具](GAMES/GAMES00x/GAMES002.md)
+> [!example]+ GAMES 入门课程
+> ```dataview
+> list
+> from ""
+> where file.folder = "三维/GAMES/GAMES00x"
+> sort file.name
+> ```
+
 ## GAMES003-图形视觉科研基本素养
 # GAMES 基础课程
+> [!example]+ GAMES 基础课程
+> ```dataview
+> list
+> from ""
+> where file.folder = "三维/GAMES/GAMES10x"
+> sort file.name
+> ```
 ## GAMES101
 ## GAMES102
 ## GAMES103
