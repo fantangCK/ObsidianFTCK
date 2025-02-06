@@ -4,11 +4,26 @@ tags:
   - Cpp
   - 总览
 ---
-> [!example]+ Cpp
+> [!example]+ Cpp-引入
 > ```dataview
 > list
 > from ""
-> where file.folder = "计算机/Cpp"
-> and contains(file.name,"-")
+> where contains(file.path,"计算机/Cpp/Cpp-引入")
+> sort file.name
+> ```
+
+> [!example]+ Cpp-STL
+> ```dataview
+> list
+> from ""
+> where contains(file.path,"计算机/Cpp/Cpp-STL")
+> sort file.name
+> ```
+
+> [!example]+ Cpp-案例
+> ```dataview
+> list
+> from ""
+> where contains(file.path,"计算机/Cpp/Cpp-案例")
 > sort file.name
 > ```
