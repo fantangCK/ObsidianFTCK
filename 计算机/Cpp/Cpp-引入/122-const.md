@@ -71,3 +71,17 @@ int main()
 
 
 ```
+
+```ad-note
+title: mutable
+
+可改变的
+
+- 配合const使用
+- 用于lambda表达式
+
+```
+
+```cpp title:例子
+代码
+```
