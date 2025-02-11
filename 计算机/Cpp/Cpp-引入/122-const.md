@@ -101,6 +101,26 @@ int main()
 	const Entity e;
 	e.GetName();
 	
+	int x = 8;
+	auto f = [&]() //lambda函数 一次性的小函数
+	{		//这个是引用的方法 会改变x本身
+		x++; 
+		std::cout << x << std::endl;
+	}
+	
+	auto g = [=]() mutable //等于 需要新建局部变量再赋值
+	{				//使用mutable则直接省略
+		/*
+		int y = x;
+		y++;
+		*/
+		x++;
+		std::cout << x << std::endl;
+	}
+	
+	f(); //这个是引用的方法 会改变x本身
+	g(); //这个是值传递的方法 不会改变x本身
+	
 	std::cin.get();
 }
 ```
