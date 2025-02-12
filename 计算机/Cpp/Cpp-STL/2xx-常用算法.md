@@ -33,4 +33,4 @@ lcm() `C++17`
 
 伪随机数生成
 mt19937
-random_device()
+random_device
