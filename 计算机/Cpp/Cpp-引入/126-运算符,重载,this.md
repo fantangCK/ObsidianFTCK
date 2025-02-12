@@ -127,7 +127,7 @@ public:
 		//非引用const方法
 		Entity& e = *this;
 		
-		delete this; //除非特殊要求 不要使用该方法 gai'fang's
+		delete this; //除非特殊要求 不要使用该方法 该方法是在释放类中参数空间
 	}
 	int GetX() const
 	{
