@@ -6,8 +6,8 @@ dlink:
 ---
 ```ad-note
 title: auto
-输入文字
 
+自动猜出变量类型
 
 ```
 
