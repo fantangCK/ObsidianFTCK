@@ -18,6 +18,7 @@ title: auto
 ```cpp title:auto
 #include <iostream>
 #include <string>
+#include <vector>
 
 std::string GetName()
 {
@@ -47,6 +48,15 @@ int main()
 	//后续的size操作方法也是可以用的
 	
 	std::cout << b << std::endl
+	
+	std::vector<std::string> strings;
+	strings.push_back("Apple");
+	strings.push_back("Orange");
+	//使用迭代器
+	for (auto it = string.begin(); it != string.end(); it++)
+	{		//std::vector<std::string>::iterator 是个长类型直接改为auto
+		std::cout << *it* << std::endl; 
+	}
 	
 	std::cin.get();
 }
