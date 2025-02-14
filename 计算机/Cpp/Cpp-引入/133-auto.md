@@ -84,8 +84,17 @@ int main()
 		std::cout << *it* << std::endl; 
 	}
 	
+	
+	using DeviceMap = std::unordered_map<std::string, std::vector<Devices*>>;
+	//其实这个using可以直接丢到类里面
+	
+	//typedef std::unordered_map<std::string, std::vector<Devices*>> DeviceMap;
+	//老版写法
+	
 	DeviceManager dm;
-	dm.GetDevices();
+	//简化写法
+	const DeviceMap& devices = dm.GetDevices();
+	const auto& devices = dm.GetDevices(); //使用cost和& 减少复制
 	
 	std::cin.get();
 }
