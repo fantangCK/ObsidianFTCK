@@ -22,18 +22,34 @@ title: 不使用using namepace std
 ```
 
 ```cpp title:案例
-#include
+#include <iostream>
+#include <string>
 
+namespace apple{
+	void print(const std::string& text)
+	{
+		std::cout << temp << std::endl;
+	}
+}
 
+namespace orange{
+	void print(const char* text)
+	{
+		std::string temp = text;
+		std::reverse(temp.begin(), temp.end());
+		std::cout << temp << std::endl;
+	}
+}
 
-namespace apple;
-
-namespace orange;
 
 using namespace apple;
+using namespace orange;
 
 int main()
 {
-	pri
+	print("Hello");	//const char类型 默认是走orange命名空间
+					//如果走apple命名空间涉及一个隐式转换
+	
+	std::cin.get()
 }
 ```
