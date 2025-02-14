@@ -15,6 +15,16 @@ title: auto
 #include <iostream>
 #include <string>
 
+std::string GetName()
+{
+	return "Cherno";
+}
+
+char* GetName1()
+{
+	return "Cherno";
+}
+
 int main()
 {
 	int a = 5;
@@ -24,6 +34,13 @@ int main()
 	auto d = 5.5f; //自动变为float类型
 	auto e = “Cherno”; //自动变为char类型
 	
+	auto name = GetName(); //自动推断什么类型 不用在两边都改
+	
+	auto name = GetName1(); 
+	int tmp = name.size();	//如果使用auto 这里就没办法调用了
+	
+	std::string name =GetName1();//这样是可以操作的 包含了一次隐式转换
+	//后续的size操作方法也是可以用的
 	
 	std::cout << b << std::endl
 	
