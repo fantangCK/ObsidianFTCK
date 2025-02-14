@@ -12,5 +12,21 @@ title: auto
 ```
 
 ```cpp title:auto
-代码
+#include <iostream>
+#include <string>
+
+int main()
+{
+	int a = 5;
+	
+	auto b = a; //b的类型自动就判断为int
+	auto c = 5.5L; //自动变为long类型
+	auto d = 5.5f; //自动变为float类型
+	auto e = “Cherno”; //自动变为char类型
+	
+	
+	std::cout << b << std::endl
+	
+	std::cin.get();
+}
 ```
