@@ -18,7 +18,6 @@ title: auto
 ```cpp title:auto
 #include <iostream>
 #include <string>
-#include <vector>
 
 std::string GetName()
 {
@@ -49,14 +48,44 @@ int main()
 	
 	std::cout << b << std::endl
 	
+	std::cin.get();
+}
+```
+
+```cpp title:auto
+#include <iostream>
+#include <string>
+
+#include <vector>
+#include <unordered_map> 
+
+class Device {};
+
+//另一个类型
+class DeviceManager
+{
+private:
+	std::unordered_map<std::string, std::vector<Devices*>> m_Devices;
+public:
+	const std::unordered_map<std::string, std::vector<Devices*>>& GetDevices()
+	{
+		return m_Devices;
+	}
+};
+
+int main()
+{
 	std::vector<std::string> strings;
 	strings.push_back("Apple");
 	strings.push_back("Orange");
 	//使用迭代器
-	for (auto it = string.begin(); it != string.end(); it++)
+	for (auto it = strings.begin(); it != strings.end(); it++)
 	{		//std::vector<std::string>::iterator 是个长类型直接改为auto
 		std::cout << *it* << std::endl; 
 	}
+	
+	DeviceManager dm;
+	dm.GetDevices();
 	
 	std::cin.get();
 }
