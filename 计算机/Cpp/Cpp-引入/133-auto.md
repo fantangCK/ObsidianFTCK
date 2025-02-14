@@ -15,7 +15,7 @@ title: auto
 
 ```
 
-```cpp title:auto
+```cpp title:auto-基础用法
 #include <iostream>
 #include <string>
 
@@ -26,6 +26,11 @@ std::string GetName()
 
 char* GetName1()
 {
+	return "Cherno";
+}
+
+auto GetName1() -> char* //c++14可以用auto类型函数 
+{						//c++11可以用箭头 后置指定类型
 	return "Cherno";
 }
 
@@ -52,7 +57,7 @@ int main()
 }
 ```
 
-```cpp title:auto
+```cpp title:auto-应用场景
 #include <iostream>
 #include <string>
 
@@ -94,7 +99,7 @@ int main()
 	DeviceManager dm;
 	//简化写法
 	const DeviceMap& devices = dm.GetDevices();
-	const auto& devices = dm.GetDevices(); //使用cost和& 减少复制
+	const auto& devices = dm.GetDevices(); //使用cost和& 减少复制 同时减少类型长度
 	
 	std::cin.get();
 }
