@@ -39,7 +39,8 @@ int main()
 {
 	std::vector<int> values = { 1, 5, 4, 2, 3 };
 	
-	std::fun_if(values.begin(), value.end(), [](int value))
+	auto it = std::fun_if(values.begin(), value.end(), [](int value) { return value > 3; })	//从value的头尾 不断迭代 返回一个大于3的值的地址
+	std::cout << *it << std::endl;
 	
 	//lambda语法分析(C++11引入的) [捕获] (传入参数) { 要运行的代码 }
 	/*
