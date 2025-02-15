@@ -23,7 +23,7 @@ title: Visual Studio 条件与操作断点
 # 条件和操作断点
 ![](附件/Pasted%20image%2020250215221048.png)
 实时调试
-- 操作Action
+- 操作Action (打开继续运行的情况下 不勾选就停止在断点处 可以查看数据对应的值)
 	- 例如 the mouse position is: {(float)x},{(float)y}
 	- 运行中就在控制台输出设置的信息
 - 条件Condition
