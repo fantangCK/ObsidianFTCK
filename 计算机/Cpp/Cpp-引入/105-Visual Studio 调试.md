@@ -17,3 +17,16 @@ title: 调试工作
 1. 查看变量: Local Watch Auto三个界面查看运行时变量变化
 2. 查看内存: 调试-窗口-内存 工具内可用 &a跳转到对应的位置
 ```
+
+```ad-note
+title: Visual Studio 条件与操作断点
+# 条件和操作断点
+![](附件/Pasted%20image%2020250215221048.png)
+实时调试
+- 操作Action
+	- 例如 the mouse position is: {(float)x},{(float)y}
+	- 运行中就在控制台输出设置的信息
+- 条件Condition
+	- 任何的布尔语句如 x == 5
+这俩能一起用
+```
