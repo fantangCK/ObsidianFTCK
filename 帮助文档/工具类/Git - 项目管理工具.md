@@ -1,3 +1,5 @@
+```ad-note
+title: git常用命令
 # git 设置
 ## 1. 设置代理
 ### 添加 HTTP 和 HTTPS 代理：
@@ -22,3 +24,5 @@
 ## 5. 取消添加的代理
 - git config --global --unset http.proxy
 - git config --global --unset https.proxy
+
+```

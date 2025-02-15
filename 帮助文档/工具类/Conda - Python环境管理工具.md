@@ -1,6 +1,10 @@
 # conda
+```ad-note
+title: conda
 
 conda 存放位置 获取源 修改
+```
+
 ```yaml title:修改.condarc
 
 channel_priority: strict

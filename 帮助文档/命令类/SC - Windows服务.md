@@ -1,4 +1,8 @@
-# 服务 sc - Windows 服务管理
+```ad-info
+title:
+```
+```ad-note
+title:服务 sc - Windows 服务管理
 
 ## 列出服务
 sc query type=service state= all
@@ -9,5 +13,10 @@ sc [start/stop/pause/continue] [服务名]
 
 ## 删除服务
 sc delete [服务名]
+
+**注:都要在管理员模式下**
+```
+
+
 
 
