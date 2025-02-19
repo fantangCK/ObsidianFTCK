@@ -10,7 +10,8 @@ dlink:
 ### fill()
 ### swap()
 ### reverse()
-### shuffle() `C++11`
+shuffle()
+`C++11`
 ### unique()
 ### sort()
 ### lower_bound() / upper_bound()
@@ -18,6 +19,7 @@ dlink:
 ### max_element() / min_element()
 ### prev_permutation() / next_permutation()
 
+---
 # 数学函数
 ### abs()
 ### exp()
@@ -27,16 +29,24 @@ dlink:
 ### sin() / cos() / tan()
 ### asin() / acos() / atan()
 ### sinh() / cosh() / atanh()
-### asinh() / acosh() / atanh() `C++11`
+### asinh() / acosh() / atanh() 
+`C++11`
 ### ceil() / floor()
-### round() `C++11`
+### round()
+`C++11`
 
+---
 # 数值算法
-### iota() `C++11`
+### iota() 
+`C++11`
 ### accumulate()
-### gcd() `C++17`
-### lcm() `C++17`
+### gcd() 
+`C++17`
+### lcm() 
+`C++17`
 
+
+---
 # 伪随机数生成
 ### mt19937
 ### random_device
