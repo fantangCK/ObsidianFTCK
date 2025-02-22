@@ -1,3 +1,7 @@
+---
+dg-publish: true
+dg-home: true
+---
 # 引入
 
 欢迎来到我的 Obsidian 笔记库
