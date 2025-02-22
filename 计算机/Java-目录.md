@@ -1,4 +1,5 @@
 ---
+dg-publish: true
 tags:
   - 计算机
   - Java
