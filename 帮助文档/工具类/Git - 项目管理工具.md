@@ -31,4 +31,7 @@ title: git常用命令
 - git config --global --unset http.proxy
 - git config --global --unset https.proxy
 
+## 参考PDF
+- [Git-Cheet-Sheet-ByGeekHour](../../归档/Asset/PDF/Git-Cheet-Sheet-ByGeekHour.pdf)
+- [GitCheatSheet_byGeekHour_v1.0.0](../../归档/Asset/PDF/GitCheatSheet_byGeekHour_v1.0.0.pdf)
 ```
