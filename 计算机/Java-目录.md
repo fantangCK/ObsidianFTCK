@@ -4,11 +4,11 @@ tags:
   - Java
   - 总览
 ---
-> [!example]+ Java-引入
+> [!example]+ Java-基础
 > ```dataview
 > list
 > from ""
-> where contains(file.path,"计算机/Java/Java-引入/")
+> where contains(file.path,"计算机/Java/Java-基础/")
 > sort file.name
 > ```
 
