@@ -20,6 +20,7 @@ public class HelloWorld {
  			//注意本文件名一定要和类名是一致的
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        //大小写也要注意
     }
 }
 ```
@@ -30,6 +31,7 @@ title: Java相关概念
 这是一门面向对象编程的语言 和Cpp很像(指针 继承多态被简化 还有内存管理)
 JVM虚拟机保证了代码在编译为class后 能在各种设备运行
 
-Java SE
-Java EE
+Java SE - 标准级
+Java EE - 企业级
+Java ME -  <sub>真有人用这玩意开发嵌入式?</sub>
 ```
