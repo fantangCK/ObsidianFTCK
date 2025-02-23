@@ -11,12 +11,6 @@ title: Java基础
 
 ```
 
-```cpp title:例子
-#include <iostream>
-
-int main()
-{
-
-	std::cin.get();
-}
+```java title:例子
+//Code
 ```
