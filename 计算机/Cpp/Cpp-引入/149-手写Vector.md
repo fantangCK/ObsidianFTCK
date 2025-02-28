@@ -6,8 +6,8 @@ dlink:
 ---
 ```ad-note
 title: 手写Vector
-输入文字
 
+以提高性能为目的Vector类 相比于STL的Vector更高效
 
 ```
 
