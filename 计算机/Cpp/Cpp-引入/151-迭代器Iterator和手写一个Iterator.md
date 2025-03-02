@@ -67,7 +67,9 @@ int main()
 		std::cout << key << "=" << value << std::endl;
 	}
 	//c++17之后引入结构化绑定 进一步改进
-	for(auto )
+	for (auto [key, value] : map)
+		std::cout << key << "=" << value << std::endl;
+	
 	std::cin.get();
 }
 ```
