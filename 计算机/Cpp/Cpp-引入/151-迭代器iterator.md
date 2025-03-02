@@ -57,7 +57,17 @@ int main()
 		std::cout << key << "=" << value << std::endl;
 	}
 	
+	std::cout << std::endl;
 	
+	//改进
+	for (auto kv : map)
+	{	//此处auto是调用了一个pair
+		auto& key = kv.first;
+		auto& value = kv.second;
+		std::cout << key << "=" << value << std::endl;
+	}
+	//c++17之后引入结构化绑定 进一步改进
+	for(auto )
 	std::cin.get();
 }
 ```
