@@ -27,7 +27,22 @@ int main()
 	for (int value : values ) //能这么写内部是由一个迭代器实现的(STL源码)
 		std::cout << value << std::endl;
 	
-	std::vector<int>::itera
+	//像是vector array带有下标的一般都可以用上面两种写法
+	//非这种类型 或者要做一定操作情况下会用别的写法
+	for(std::vector<int>::iterator it = values.begin();
+		it !=values.end(); it++)
+	{	//这里的end是最后一个元素之后的元素
+		std::cout << *it << std::endl; //it是地址 *做解引用
+	}
+	
+	std::unordered_map<std::string, int> map; //无序表 哈希表
+	map["Cherno"] = 5;
+	map["C++"] = 2;
+	
+	
+	
+	//此处const_iterator 不改变原值
+	for (std::unordered_map<std::string, int> ::const_iterator)
 	
 	std::cin.get();
 }
