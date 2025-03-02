@@ -35,14 +35,28 @@ int main()
 		std::cout << *it << std::endl; //it是地址 *做解引用
 	}
 	
-	std::unordered_map<std::string, int> map; //无序表 哈希表
+	
+	//简化类
+	using ScoreMap = std::unordered_map<std::string, int>; //无序表 哈希表
+	//using ScoreMapConstIter = ScoreMap::const_iterator;
+	//此处const_iterator 不改变原值
+	//再Using Iter这种不多见 但使用上面简化类多见
+	ScoreMap map;
+	
 	map["Cherno"] = 5;
 	map["C++"] = 2;
 	
+	//for(ScoreMapConstIter) //不多见
+	for (ScoreMap::const_iterator it = map.begin()
+		it !=map.end(); it++)
+	{
+		//*it //这样引用也行 方便一点见下面
+		auto& key = it->first; //first对应map的第一个
+		auto& value = it->second;
+		
+		std::cout << key << "=" << value << std::endl;
+	}
 	
-	
-	//此处const_iterator 不改变原值
-	for (std::unordered_map<std::string, int> ::const_iterator)
 	
 	std::cin.get();
 }
