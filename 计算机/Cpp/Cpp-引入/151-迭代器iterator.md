@@ -6,8 +6,8 @@ dlink:
 ---
 ```ad-note
 title: 迭代器iterator
-输入文字
 
+用于迭代
 
 ```
 
