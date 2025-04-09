@@ -30,6 +30,8 @@ title: git常用命令
 ## 5. 取消添加的代理
 - git config --global --unset http.proxy
 - git config --global --unset https.proxy
+## 6. 密码输入错误清理
+- git config --system --unset credential.helper
 
 ## 参考PDF
 - [Git-Cheet-Sheet-ByGeekHour](../../归档/Asset/PDF/Git-Cheet-Sheet-ByGeekHour.pdf)
