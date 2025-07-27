@@ -47,11 +47,11 @@ title: git流程
 在命令窗口中输入：git init
 在 Gitee 中我们刚刚新建的仓库里，去复制仓库的地址
 
-git remote add origin 你的仓库地址
-git pull origin master
-git add .
-git commit -m “提交项目”
-git push origin master
+- git remote add origin 你的仓库地址
+- git pull origin master
+- git add .
+- git commit -m “提交项目”
+- git push origin master
 
 现在可以去 Gitee 你的仓库，刷新一下，本地项目上传到自己的 Git 仓库中啦！！！！
 ```
