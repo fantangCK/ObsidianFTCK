@@ -43,7 +43,7 @@ title:Java 在 linux 上
 
 以OpenJDK为例
 其所需要的都可以在archlinux软件仓库找到,故可通过pacman安装
-版本与<sup>包</sup>名对照表参考archwiki,如下
+版本与包名对照表参考archwiki,如下
 
 ```cardlink
 url: https://wiki.archlinuxcn.org/wiki/Java
