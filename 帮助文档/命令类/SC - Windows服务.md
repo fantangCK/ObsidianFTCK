@@ -5,9 +5,6 @@ dlink:
   - "[[../../帮助-目录|帮助-目录]]"
 ---
 
-```ad-info
-title:
-```
 ```ad-note
 title:服务 sc - Windows 服务管理
 
